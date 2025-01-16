@@ -6,7 +6,7 @@ class TImages {
 
   // -- App Logos
   static const String darkAppLogo = "assets/logos/logo.png";
-  static const String lightAppLogo = "assets/logos/logo.png";
+  static const String lightAppLogo = "assets/logos/logo_dark.png";
 
   // -- Social Logos
   static const String google = "assets/logos/google-icon.png";
@@ -139,7 +139,7 @@ class TImages {
   static const String banner1 = "assets/images/banner/banner_1.jpg";
   static const String banner2 = "assets/images/banner/banner_2.jpg";
   static const String banner3 = "assets/images/banner/banner_3.jpg";
-  static const String banner4 = "assets/images/banner/banner_4.jpg";
+  static const String banner4 = "assets/images/banner/banner_4.png";
   static const String banner5 = "assets/images/banner/banner_5.jpg";
   static const String banner6 = "assets/images/banner/banner_6.jpg";
   static const String banner7 = "assets/images/banner/banner_7.jpg";

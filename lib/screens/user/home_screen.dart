@@ -7,6 +7,7 @@ import 'package:Saz/common/widgets/shapes/containers/custom_curved.dart';
 import 'package:Saz/common/widgets/shapes/containers/custom_search_container.dart';
 import 'package:Saz/controllers/cart_controller.dart';
 import 'package:Saz/controllers/product_controller.dart';
+import 'package:Saz/controllers/theme_controller.dart';
 import 'package:Saz/data/repositories/authentication_repo.dart';
 import 'package:Saz/screens/search/search.dart';
 import 'package:Saz/screens/user/cart/cart.dart';
@@ -128,8 +129,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         SizedBox(
                             height: 250,
                             child: TRoundedBorderImage(
-                              imageUrl: TImages.banner2,
-                              fit: BoxFit.cover,
+                              imageUrl: TImages.banner4,
                             )),
                         SizedBox(
                             height: 250,
@@ -274,6 +274,7 @@ class THomeAppBar extends StatelessWidget {
     final cartController = Get.put(CartController());
     final _auth = FirebaseAuth.instance;
     final _user = _auth.currentUser!.uid;
+    final ThemeController themeController = Get.put(ThemeController());
     return SAppBar(
       leadingIcon: null,
       title: Column(
@@ -316,6 +317,9 @@ class THomeAppBar extends StatelessWidget {
         ],
       ),
       actions: [
+        IconButton(onPressed: ()=> themeController.toggleTheme(),
+         icon: themeController.isDarkMode.value? Icon(Icons.sunny): Icon(Icons.nights_stay, color: Colors.white,)
+        ),
         Stack(
           children: [
             IconButton(
