@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "242325118219",
+    "project_id": "app-watch-hub-c18f2",
+    "storage_bucket": "app-watch-hub-c18f2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242325118219:android:478d9e4226d22a2141d60e",
+        "android_client_info": {
+          "package_name": "com.example.ecom"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkRwUCIjBc7s--clIlY8jQ1uVKcpaqr7c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
