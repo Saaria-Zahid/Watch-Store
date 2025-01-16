@@ -110,7 +110,7 @@ class TProductCardVerticle extends StatelessWidget {
                           '\$${product.salePrice}',
                           maxLines: 1,
                           overflow: TextOverflow.ellipsis,
-                          style: Theme.of(context).textTheme.headlineMedium,
+                          style: Theme.of(context).textTheme.headlineSmall,
                         ),
                         GestureDetector(
                           onTap: () {

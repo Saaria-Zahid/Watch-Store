@@ -63,11 +63,11 @@ class ProductController extends GetxController {
   }
 
   final List<Brand> brands = [
- Brand(name: "Rolex", image: "images/brands/rolex.png"),
-  Brand(name: "Omega", image: "images/brands/omega.png"),
-  Brand(name: "Breitling", image: "images/brands/breit.png"),
-  Brand(name: "Hublot", image: "images/brands/hublot.png"),
-  Brand(name: "Tag Heuer", image: "images/brands/tag.png"),
+ Brand(name: "Rolex", image: "assets/images/brands/rolex.png"),
+  Brand(name: "Omega", image: "assets/images/brands/omega.png"),
+  Brand(name: "Breitling", image: "assets/images/brands/breit.png"),
+  Brand(name: "Hublot", image: "assets/images/brands/hublot.png"),
+  Brand(name: "Tag Heuer", image: "assets/images/brands/tag.png"),
 ];
 
 
@@ -80,37 +80,37 @@ class ProductController extends GetxController {
     "id": 1,
     "brand": "Rolex",
     "name": "Rolex Submariner",
-    "image": "images/products/rolex_4.png",
-    "price": 12500,
+    "image": "assets/images/products/rolex_4.png",
+    "price": 12500.0,
     "description": "The Rolex Submariner is a classic diving watch with unmatched precision.",
-    "salePrice": 11800
+    "salePrice": 11800.0
   },
    {
     "id": 6,
     "brand": "Hublot",
     "name": "Hublot Classic Fusion",
-    "image": "images/products/hublot_2.png",
-    "price": 14000,
+    "image": "assets/images/products/hublot_2.png",
+    "price": 14000.0,
     "description": "Hublot Classic Fusion offers understated luxury with modern design.",
-    "salePrice": 13500
+    "salePrice": 13500.0
   },
     {
     "id": 13,
     "brand": "Tag Heuer",
     "name": "Tag Heuer Carrera",
-    "image": "images/products/tag_1.png",
-    "price": 3200,
+    "image": "assets/images/products/tag_1.png",
+    "price": 3200.0,
     "description": "The Tag Heuer Carrera is a sleek, sporty watch for professionals.",
-    "salePrice": 3100
+    "salePrice": 3100.0
   },
   {
     "id": 3,
     "brand": "Rolex",
     "name": "Rolex Day-Date",
-    "image": "images/products/rolex_3.png",
-    "price": 35000,
+    "image": "assets/images/products/rolex_3.png",
+    "price": 35000.0,
     "description": "Rolex Day-Date is a symbol of prestige and sophistication.",
-    "salePrice": 34000
+    "salePrice": 34000.0
   },
 
 
@@ -119,38 +119,38 @@ class ProductController extends GetxController {
     "id": 5,
     "brand": "Hublot",
     "name": "Hublot Big Bang",
-    "image": "images/products/hublot_1.png",
-    "price": 22000,
+    "image": "assets/images/products/hublot_1.png",
+    "price": 22000.0,
     "description": "Hublot Big Bang features an innovative design and bold aesthetics.",
-    "salePrice": 21000
+    "salePrice": 21000.0
   },
    {
     "id": 20,
     "brand": "Breitling",
     "name": "Breitling Avenger",
-    "image": "images/products/breitling_4.png",
-    "price": 5800,
+    "image": "assets/images/products/breitling_4.png",
+    "price": 5800.0,
     "description": "Breitling Avenger combines precision and durability for adventurers.",
-    "salePrice": 5600
+    "salePrice": 5600.0
   },
   {
     "id": 2,
     "brand": "Rolex",
     "name": "Rolex Datejust",
-    "image": "images/products/rolex_3.png",
-    "price": 7500,
+    "image": "assets/images/products/rolex_3.png",
+    "price": 7500.0,
     "description": "Rolex Datejust is the epitome of timeless elegance and precision.",
-    "salePrice": 7300
+    "salePrice": 7300.0
   },
  
   {
     "id": 8,
     "brand": "Hublot",
     "name": "Hublot MP-11",
-    "image": "images/products/hublot_5.png",
-    "price": 90000,
+    "image": "assets/images/products/hublot_5.png",
+    "price": 90000.0,
     "description": "Hublot MP-11 showcases cutting-edge mechanics and luxurious design.",
-    "salePrice": 88000
+    "salePrice": 88000.0
   },
 
   // Omega
@@ -158,47 +158,47 @@ class ProductController extends GetxController {
     "id": 9,
     "brand": "Omega",
     "name": "Omega Speedmaster",
-    "image": "images/products/omega_1.png",
-    "price": 5200,
+    "image": "assets/images/products/omega_1.png",
+    "price": 5200.0,
     "description": "The Omega Speedmaster is an iconic chronograph built for precision.",
-    "salePrice": 5000
+    "salePrice": 5000.0
   },
   {
     "id": 10,
     "brand": "Omega",
     "name": "Omega Seamaster",
-    "image": "images/products/omega_2.png",
-    "price": 4500,
+    "image": "assets/images/products/omega_2.png",
+    "price": 4500.0,
     "description": "The Omega Seamaster is a favorite among divers and James Bond fans.",
-    "salePrice": 4300
+    "salePrice": 4300.0
   },
   {
     "id": 11,
     "brand": "Omega",
     "name": "Omega Constellation",
-    "image": "images/products/omega_3.png",
-    "price": 3800,
+    "image": "assets/images/products/omega_3.png",
+    "price": 3800.0,
     "description": "Omega Constellation is a timeless classic with a sleek design.",
-    "salePrice": 3650
+    "salePrice": 3650.0
   },
   {
     "id": 12,
     "brand": "Omega",
     "name": "Omega De Ville",
-    "image": "images/products/omega_4.png",
-    "price": 6200,
+    "image": "assets/images/products/omega_4.png",
+    "price": 6200.0,
     "description": "Omega De Ville offers sophisticated style and impeccable performance.",
-    "salePrice": 6000
+    "salePrice": 6000.0
   },
 
   {
     "id": 4,
     "brand": "Rolex",
     "name": "Rolex Yacht-Master",
-    "image": "images/products/rolex_1.png",
-    "price": 14500,
+    "image": "assets/images/products/rolex_1.png",
+    "price": 14500.0,
     "description": "Rolex Yacht-Master is a luxury sailing watch with outstanding performance.",
-    "salePrice": 13800
+    "salePrice": 13800.0
   },
   // Tag Heuer
 
@@ -206,28 +206,28 @@ class ProductController extends GetxController {
     "id": 14,
     "brand": "Tag Heuer",
     "name": "Tag Heuer Monaco",
-    "image": "images/products/tag_2.png",
-    "price": 6000,
+    "image": "assets/images/products/tag_2.png",
+    "price": 6000.0,
     "description": "Tag Heuer Monaco is a bold square-shaped chronograph watch.",
-    "salePrice": 5800
+    "salePrice": 5800.0
   },
   {
     "id": 15,
     "brand": "Tag Heuer",
     "name": "Tag Heuer Aquaracer",
-    "image": "images/products/tag_3.png",
-    "price": 2500,
+    "image": "assets/images/products/tag_3.png",
+    "price": 2500.0,
     "description": "Tag Heuer Aquaracer is a versatile watch with a sporty feel.",
-    "salePrice": 2400
+    "salePrice": 2400.0
   },
   {
     "id": 16,
     "brand": "Tag Heuer",
     "name": "Tag Heuer Link",
-    "image": "images/products/tag_4.png",
-    "price": 2900,
+    "image": "assets/images/products/tag_4.png",
+    "price": 2900.0,
     "description": "Tag Heuer Link combines comfort and elegance seamlessly.",
-    "salePrice": 2750
+    "salePrice": 2750.0
   },
 
   // Breitling
@@ -235,37 +235,37 @@ class ProductController extends GetxController {
     "id": 17,
     "brand": "Breitling",
     "name": "Breitling Navitimer",
-    "image": "images/products/breitling_1.png",
-    "price": 8900,
+    "image": "assets/images/products/breitling_1.png",
+    "price": 8900.0,
     "description": "The Breitling Navitimer is an aviation icon with impeccable craftsmanship.",
-    "salePrice": 8500
+    "salePrice": 8500.0
   },
   {
     "id": 18,
     "brand": "Breitling",
     "name": "Breitling Superocean",
-    "image": "images/products/breitling_2.png",
-    "price": 4800,
+    "image": "assets/images/products/breitling_2.png",
+    "price": 4800.0,
     "description": "The Breitling Superocean is built for underwater exploration.",
-    "salePrice": 4600
+    "salePrice": 4600.0
   },
   {
     "id": 19,
     "brand": "Breitling",
     "name": "Breitling Chronomat",
-    "image": "images/products/breitling_3.png",
-    "price": 7200,
+    "image": "assets/images/products/breitling_3.png",
+    "price": 7200.0,
     "description": "Breitling Chronomat is a multi-functional chronograph with a bold design.",
-    "salePrice": 6900
+    "salePrice": 6900.0
   },
    {
     "id": 7,
     "brand": "Hublot",
     "name": "Hublot Spirit of Big Bang",
-    "image": "images/products/hublot_3.png",
-    "price": 30000,
+    "image": "assets/images/products/hublot_3.png",
+    "price": 30000.0,
     "description": "Hublot Spirit of Big Bang combines innovative materials and style.",
-    "salePrice": 29000
+    "salePrice": 29000.0
   },
 
 ];
@@ -281,9 +281,9 @@ void loadProducts() {
         brand: watch['brand'],
         name: watch['name'],
         image: watch['image'],
-        price: watch['price'],
+        price: (watch['price']as num).toDouble(),
         description: watch['description'],
-        salePrice: watch['salePrice'],
+        salePrice: (watch['salePrice']as num).toDouble(),
       ),
     );
   });

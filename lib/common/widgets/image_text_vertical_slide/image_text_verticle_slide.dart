@@ -56,6 +56,8 @@ final void Function()? onTap;
                     .apply(color: textColor),
                 maxLines: 1,
                 overflow: TextOverflow.ellipsis,
+                textAlign: TextAlign.center,
+                
               ),
             ),
           ],

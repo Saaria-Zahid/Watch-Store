@@ -124,6 +124,7 @@ class _SearchPageState extends State<SearchPage> {
                 height: TSizes.spaceBtwSections,
               ),
               TSectionHeading(
+                showActionButton: false,
                   title:
                       "${searchQuery == null || searchQuery == '' ? selectedBrand == '' || selectedBrand == null ? "All Products" : " All Products of $selectedBrand" : "Search Result For $searchQuery"}"),
               SizedBox(
